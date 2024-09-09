@@ -1,0 +1,42 @@
+CONTROL DE VERSIONES
+************************************
+instalamos git  bajando el instalador https://git-scm.com/download/win ...o en terminal de vsc con el comando winget install --id Git.Git -e --source winget
+
+
+
+ENPAQUETADO
+************************************
+
+
+
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+GIT  (control de versiones)
+	instalar git     > https://git-scm.com/
+nota: primero se guardan archivos, luego se crean las versiones.....
+comandos:
+	git --version  >version de git
+accesar a carpeta de proyectos
+	git init  >empieza el proceso para el  guardado
+	ls -a >muestra archvos ocultos
+	git status   >estado de git con archivos si estan guardaddos o no
+	git add index.html  >guarda el archivo index
+	git add .       >guarda todos los archivos de la carpeta actual
+creando la  primer version de proyecto
+	git commit -m 'mi primer commit' (m=mensaje)
+	git log   >muestra todas las versiones guardadas
+	git diff (poner clave commit de 1 proyecto ...98sfe9sf88f8dsa....) (poner clave commit de 2 proyecto... 565sfsdfas...)  >>> muestra ls diferencias entre 2 commits
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+WEBPACK ---- (enpacar, minimizacion de archivos, hacerlos mas livianos los archivos)
+instalar https://webpack.js.org/  guia: https://webpack.js.org/guides/getting-started
+al empaquetar le da a los nombres de archivo nombres del tipo hash, esto ayuda a que cuando vuelvan abrir la pagina reciban los cambios y el navegador no tome los archivos guardados en cache
+asi mismo tu html, css, se crea en una sola linea, ya no da el codigo desglosado
+
+
+
+
